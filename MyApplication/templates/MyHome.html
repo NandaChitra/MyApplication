@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Marcellus SC">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            /*background-color:  midnightblue;*/
+            background-color:  rgb(255, 255, 255);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: rgb(3, 3, 3);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family:'Trebuchet MS' 
+        }
+
+        li a:hover {
+            background-color: rgb(111, 196, 184);
+        }
+        h2 {
+            text-align: center;
+            font-family: 'Helvetica';
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 50px;padding-top: 2px;padding-bottom: 30px; margin: -8px;; background-color: maroon; color:blanchedalmond">
+        <h2> Welcome to My Application </h2>
+    </div>
+    <div style="padding-left: 26px; margin: -8px;background-color:rgb(171, 164, 232);font-weight: bold; color: darkslategrey;">
+        <ul style="color: rgb(65, 6, 6);list-style-type:none;background-color:rgb(171, 164, 232);display:inline-block">
+            <li><a href="{{ url_for('MyHome')}}" class="active"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="{{ url_for('InsertStudent')}}">Add Student</a></li>
+            <li><a href="{{ url_for('ViewStudent')}}">  View Student</a></li>
+            <li><a href="{{ url_for('MarksData')}}">   Enter Marks</a></li>
+        </ul>
+    </div>
+ 
+</body>
+</html>
