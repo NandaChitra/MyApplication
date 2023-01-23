@@ -1,13 +1,16 @@
 # MyApplication
+
 Demo of MySQL, Python, and Flask based Web development
 Step-by-step guide to develop a web based Database Application using Python/Flask
----------------------------------------------------------------------------------
+
+---
+
 Version 1.0
-Backend tool	: mySQL 
-IDE 		    : MySQL Workbench 8.0
-Frontend tool	: Python, Flask, Jinja2 template
+Backend tool : mySQL
+IDE : MySQL Workbench 8.0
+Frontend tool : Python, Flask, Jinja2 template
 Supporting Tools: HTML/CSS
-IDE		        : VS Code 2022
+IDE : VS Code 2022
 
 Step 1: Install mySQL Workbench and VS Code in your laptop/desktop.
 Step 2: Create a table Student(USN, Name, Phone, Marks) in mySQL
@@ -31,11 +34,8 @@ Step 16: Type the code given in MyError.html file.
 Step 17: Execute the app.py program.
 Step 18: Type the url "localhost:5000" or "127.0.0.1:5000" in your default brower (to check login).
 Step 19: Create two more files: ShowStudent.html and NewStudent.html under templates folder.
-Step 20: ShowStudent.html is to display the student data. 
+Step 20: ShowStudent.html is to display the student data.
 Step 21: NewStudent.html is to add a new student in the database.
-Step 22: 
+Step 22:
 EnterMarks.html page is under development.
-
-
-
-
+Step 23: to be added
